@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 110%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: lightyellow;;
+  color: black;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: lightgrey;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: #c0e1bd;;}
+#Coping methods {background-color: #c0e1bd;;}
+#Counsellors/Support groups {background-color: #c0e1bd;;}
+#Help {background-color: #c0e1bd;;}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: black;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+
+<body>
+
+<button class="tablink" onclick="openPage('Home', this, 'lightblue')"id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Coping methods', this, 'lightblue')" >Coping methods</button>
+<button class="tablink" onclick="openPage('Counsellors/Support groups', this, 'lightblue')">Counsellors/Support groups</button>
+<button class="tablink" onclick="openPage('Help', this, 'lightblue')">Help</button>
+
+<div id="Home" class="tabcontent">
+  <h1>Home</h1>
+  
+<div style="border:solid;padding:6px;">  
+
+
+<b> <u> <p style="font-size:150%;"> Losing a loved one due to/during covid </b> </u> </p>  
+<p> 
+<p style="font-size:120%;">
+
+Losing a loved one is never an easy battle to fight. With the coronoavirus, it becomes even harder, regardless of whether you lost them due to covid or during the pandemic. 
+Everyone loses their loved ones throughout a point in their life but losing them during the pandemic has relatively affected them to a completely different extent. <br> 
+
+<b> <u> <p style="font-size:150%;"> Effects </b> </u> </p>
+
+<p style="font-size:120%;">
+
+<b> 1) </b> With the pandemic, the majority of us are still indoors, adapted to the lifestyle of virtual learning or virtual working, which results in a decline in social interaction. You are still socially connected but online not physically and when you go through a devastating event such as losing someone, you would want you’re friends and family near you, but due to covid that is not possible. This takes <u> <b> a huge toll on the mental health of the person or family</u> </b>. <br> <br>
+
+<b> 2) </b> It also brings <u> <b> frustration and anger </u> </b> because first, you aren’t able to deal with the trauma efficiently and second, you begin to <u> <b> self-doubt and self-blame </u> </b> as you think you are the reason they contracted the virus. <br> <br> 
+
+<b> 3) </b> Another setback is <u> <b>  saying goodbye in uncertain ways. </u> </b> There is a ritual in India to burn the body of the person and scatter their ashes in a sacred or holy water body, but due to the virus, they can’t perform this ritual anymore as it puts everyone in the funeral at risk of contracting the coronavirus, so they cremate the body.
+
+<b> <u> <p style="font-size:150%;"> Why use this website </b> </u> </p>
+
+<p style="font-size:120%;">
+
+Losing a loved one is difficult but it is more difficult during covid as there are restrictions in the methods of grieving and coping due to the social restrictions and the societal conditions, but this website has the various methods and techniques one can implement to grieve effectively and effeciently despite the constraints present due to the virus. We provide various coping methods such as techniques, practicies, movies, songs etc. and they are categorised age wise to make it more appropriate. We also give details of credible counsellors and support groups one can visit for addtional support and help. We are here to help you get through this difficult time and remind you that you are not alone.  
+
+</p> 
+</div style>
+</div> 
+
+
+<div id="Coping methods" class="tabcontent">
+<body style="background-color:#c0e1bd;">
+
+  <h1>Coping methods</h1>
+  
+<p style="font-size:120%;"> The only way to grieve and get through this tough time effeciently is by trying and implementing different coping methods. With the virus, there is a lack of availabaility and accessibility to various coping methods, but we have put down various techniques, methods, acitvities etc. that you can implement in order to grieve and get through this effeciently and affectively. The methods are also categorised by ages to help you better. </p> 
+
+There are 3 boxes available below saying either 'Coping technqiues', 'Movies, Songs etc.' and 'Activities'. Click on which one you want to check first. 
+
+  
+<!-- Three columns -->
+<br> <br>  <div class="row">
+
+  <div class="column" onclick="openTab('b1');" style="background:lightblue;color:black;border:solid;">
+Coping techniques  </div>
+
+  <div class="column" onclick="openTab('b2');" style="background:lightblue;color:black;border:solid;">
+Movies,Songs etc.  </div>
+
+  <div class="column" onclick="openTab('b3');" style="background:lightblue;color:black;border:solid;">
+Activities  </div>
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<div id="b1" class="containerTab" style="display:none;background:lightblue;color:black">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Coping techniques and methods</h2>
+<p> 
+
+<p style="font-size:100%;">
+  
+<p style="font-size:120%;"> <b> 1) Join in rituals </b> </p style>  Memorial services, funerals, and other traditions help people get through the first few days and honor the person who died. Just being in the presence of other people who knew your loved one can be comforting.
+ <br> <br> 
+ 
+ <img src="https://cdn.cnn.com/cnnnext/dam/assets/110902014151-india-funeral-pyre.jpg" width="150" height="100">
+ 
+ <img src="data:image/jpeg;base64,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" width="150" height="100">
+ 
+<br> 
+
+<p style="font-size:120%;"> <b> 2) Preserve memories </b> </p style> 
+Create a memorial or tribute to the person who died by planting a tree or garden, or honor the person in a fitting way, like taking part in a charity run or walk. Make a memory box or folder that has reminders of the person who has died. Include mementos, photos, quotes, or whatever you choose. If you want, write a letter to the person. In it, you might want to include your feelings, things you want to say, or perhaps thank your loved one for being a part of your life.
+<br> <br> 
+ 
+<img src="https://m.media-amazon.com/images/I/51dOLd50rUL._SL1024_.jpg" width="150" height="100">
+ 
+
+<br> 
+
+<p style="font-size:120%;"> <b> 3) Sharing your feelings </b> </p style>  Talking to friends about how you feel can help ease the burden of loss. Let friends know that you don't expect advice or answers and simply wish to share your emotions or reminisce about the person you've lost.
+
+<br> 
+
+
+<p style="font-size:120%;"> <b> 4) Setting aside time to grieve </b> </p style>
+Scheduling grief might seem counterintuitive, but putting specific time on your daily calendar to grieve can help you fully process intense emotions. Give yourself permission to cry, scream or otherwise display strong feelings during that time, and find a place where you feel free to let yourself grieve without fear of judgment.
+
+<br> <br> 
+<img src="https://www.debbieaugenthaler.com/wp-content/uploads/2020/06/b5a22f7e-df1c-4225-9395-cc6d1f26785c-1024x1024.png" width="140" height="160">
+
+<br> 
+
+<p style="font-size:120%;"> <b> 5) Avoid making big changes in your life </b> </p style> 
+A major loss causes a lot of upheaval in your life, so it's best to keep everything else as normal as possible. Hold off on changing jobs, moving or making other big life decisions until you have worked through the grief process for a while.
+
+<br> 
+
+<p style="font-size:120%;"> <b> 6) Taking refuge in your religious practices </b> </p style> 
+ If you are a regular churchgoer, attending services may help you deal with grief. Private prayer, meditation and listening to religious music are other ways to cope with the spiritual aspects of grieving.
+
+<br> <br> 
+<img src="https://qph.fs.quoracdn.net/main-qimg-b6b91b5a2a946297de6e546eff9f2938" width="200" height="130">
+
+<p style="font-size:120%;"> <b> 7) Reminiscing in a healthy way </b> </p style> 
+Your good memories of the person who has passed on can be a comfort during grief. Spend some time looking through old pictures, reading messages from the person who died or watching videos taken during your loved one's life. You might also find it helpful to talk aloud or write messages to the person who has died, expressing your feelings directly to that person and maintaining a connection that transcends death.
+
+
+<p style="font-size:120%;"> <b> 8) Memorialize your loved one </b> </p style> 
+ If the person you are grieving had an affinity for a specific cause or charity, consider volunteering or donating in that person's memory.
+
+
+<p style="font-size:120%;"> <b> 9) Spending time with pets </b> </p style> 
+Animal companions provide unconditional love and comfort that could help you cope with grief. If you don't have pets of your own, consider volunteering at a local animal shelter to walk dogs or socialize kittens so they are ready for adoption.
+
+<br> <br> 
+<img src="https://post.healthline.com/wp-content/uploads/2020/09/1867-Pets_Vaccination-1296x728-header-1200x628.jpg" width="220" height="130">
+
+
+<p style="font-size:120%;"> <b> 10) Joining a grief support group </b> </p style> 
+ Being around others who have also recently experienced a major loss can help you share the burden of grief. If your loved one died of a specific illness, such as cancer or heart disease, there might be a local support group for people who have lost someone to that specific disease. We also have mentioned a few good support groups and counsellors you can visit on this website so check that out. 
+ 
+ </p>
+</div>
+
+<div id="b2" class="containerTab" style="display:none;background:lightblue;color:black">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Movies/songs etc.</h2>
+  <p> 
+  
+ <p style="font-size:120%;"> Along with coping techniques, there are movies and songs that we have listen below that you can watch and listen to, when you just want to lay back and relax but at the same time ease the process of losing them. </p> 
+  
+ <p style="font-size:120%;"> <b> Movies to watch </b> </p style>
+ 
+<b>  1) Rocky (1976)
+ 
+ <br>  
+ <img src="https://media.self.com/photos/5a344fa54669415cf908fc09/master/w_2580%2Cc_limit/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA%40%40._V1_SY1000_CR0%2C0%2C666%2C1000_AL_.jpg" width="150" height="130"> 
+ <br> 
+ 
+ <br>
+ 
+2) To Kill a Mockingbird (1962)
+
+<br>
+ <img src="https://media.self.com/photos/5a344fa53e056c42a43292f2/master/w_2580%2Cc_limit/MV5BN2YxZDUxYzMtYzQxNy00NTRjLThmZjQtY2Q4Njg2MTUyOTkzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY%40._V1_SY1000_CR0%2C0%2C667%2C1000_AL_.jpg" width="150" height="130">
+<br> 
+
+<br>
+
+3) The Mighty Ducks (1992)
+
+<br> 
+<img src="https://media.self.com/photos/5a344fa683ab3f54feacf7c5/master/w_2580%2Cc_limit/MV5BYzdkMGUxYTMtNWU0YS00MmMwLWI4ZDYtNTgyN2IzZjNlMzYxXkEyXkFqcGdeQXVyNDk3NzU2MTQ%40._V1_SY1000_CR0%2C0%2C666%2C1000_AL_.jpg" width="150" height="130">
+<br> 
+
+<br>
+
+4) After Life (1998)
+
+ <br> 
+<img src="https://media.self.com/photos/5a344fa483ab3f54feacf7c3/master/w_2580%2Cc_limit/MV5BMTQ4MTg3OTIwMF5BMl5BanBnXkFtZTcwMjg1MDIyMQ%40%40._V1_.jpg" width="150" height="130">
+<br> 
+
+<br>
+</b> 
+
+For more movies, visit "https://www.self.com/gallery/movies-to-watch-while-grieving" 
+
+ <p style="font-size:120%;"> <b> Songs to listen to </b> </p style>
+
+1) Missing You by Diana Ross <br>
+2) You Are Not Alone by Michael Jackson <br>
+3) I'll Be Missing You by Puff Daddy Ft <br>
+4) Tears In Heaven by Eric Clapton <br>
+5) My Heart Will Go On by Celine Dion <br>
+6) One Sweet Day by Mariah Carey and Boyz II Men <br>
+7) Let It Be by The Beatles <br>
+
+<br>
+
+For more songs, visit "https://www.kuzoandfoulkfh.com/news/grieving-through-song-7-beautiful-songs-to-help-you-cope-with-the-loss-of-a-loved-one/" 
+  
+  </p>
+</div>
+
+<div id="b3" class="containerTab" style="display:none;background:lightblue;color:black">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2>Activities</h2>
+  <p> 
+  
+   <p style="font-size:120%;"> We have also made a list of activities that you can do with your family or children to help with grieving as well. </p> 
+   
+
+<p style="font-size:120%;"> <b> Keeping a journal </b> </p style> 
+   
+Writing your feelings and thoughts in a journal not only helps you process grief but also keeps a record of your progression through the grieving process. You can look back on how your view of the loss has changed over time, which can help you see that your bereavement is an ongoing process.
+
+<br>
+<br> 
+<img src="https://www.teachingenglish.org.uk/sites/teacheng/files/images/class_journals_iStock_000021675732XSmall.jpg" width="150" height="130">
+<br> 
+
+<br> 
+   
+ 
+<p style="font-size:120%;"> <b> Getting creative </b> </p style> 
+
+Making art, crafting and playing music are all ways to express your creativity and process overwhelming emotions.
+
+<br> 
+<br> 
+<img src="https://previews.123rf.com/images/olegdudko/olegdudko1802/olegdudko180203881/95793583-art-and-craft-supplies-on-colorful-paper-background.jpg" width="150" height="130">
+<br> 
+
+<br>
+
+<p style="font-size:120%;"> <b> Exercising regularly </b> </p style> 
+
+ Add physical activity to your schedule to help you release energy as a form of grief expression. You can use a quiet walk or run to calm your body and emotions or punch and kick at a punching bag to work out anger and frustration about your loss.
+ 
+ <br> 
+ <br> 
+<img src="https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2013/09/inexpensiveExercise-1277759983-770x533-1-650x428.jpg" width="150" height="130">
+<br> 
+
+<br>
+
+<p style="font-size:120%;"> <b> Few games you can play with your children: </b> </p style> 
+
+Finish the Sentence <br> 
+Before and After Family <br> 
+Create a Memory Box <br> 
+Create a Journal <br> 
+Write a Letter to Your Person <br> 
+Write a Poem Based on Their Name <br> 
+Make a Memory Bracelet <br> 
+Make a Scream Box <br> 
+
+<br> 
+
+For more games, visit "https://www.scarymommy.com/grief-activities-for-kids/" 
+
+ 
+  </p>
+</div>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+</div>
+
+
+<div id="Counsellors/Support groups" class="tabcontent">
+  <h1>Counsellors/Support groups</h1>
+  
+<p style="font-size:120%;"> Along with coping techniques and methods you implement yourself at home, it is always advised to reach out for further professional help. There are various credible online counsellors or support groups that can guide you through your grief process. Listen below are a few trusted counsellors and support groups that you can visit for helping with the process. </p> 
+
+<p style="font-size:120%;"> <b> Vandrevala foundation </b> </p style> 
+
+  <img src="data:image/jpeg;base64,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" width="250" height="150">
+
+<br> <br> 
+
+Vandrevala Foundation is a mental health support line that deal with people facing various mental health issues on a daily basis. This is a good helpline for people who are grieving because losing a loved one takes a toll on our mental health in various ways, and this foundation can help in the process of improving your mental health. <br> <br>  
+Visit https://www.vandrevalafoundation.com/ for more information. 
+  
+  <br> 
+
+  <p style="font-size:120%;"> <b> Grieving.com </b> </p style> 
+
+
+<img src="https://i.imgur.com/M641x7S.png" width="250" height="150">
+  
+  <br> <br> 
+  
+Grieving.com is an online forum that allows people to communicate and share their methods of coping and grieving the loss of a loved one. There are various sections of communication, you can create your own circles and also get in contact with a therapist. This forum allows everyone who are grieving to get together and share their process and make everyone feel like they belong and they're not alone. 
+<br> <br> 
+Visit https://forums.grieving.com/ for more information. 
+
+<br> 
+
+</div>
+
+<div id="Help" class="tabcontent">
+  <h1>Help</h1>
+ <p style="font-size:140%;"> I hope that this website was helpful in making this process easier for you. Just remember that what you are going through is a very difficult situation that no one should ever have to go through, but you are not alone. With these unprecedented times due to the virus, it is even more difficult to grieve. So, don't be afraid to reach out for help and connect to people that will help make this process easier. Don't bottle up your feelings and expect them to go away cause they won't. Don't be ashamed of feeling bad, it is human to cry for the ones you have lost. To grieve in a healthy manner, practice the various techniques and methods we have given on this website and visit the different counsellors and support groups as well. <br> <br> 
+ 
+ If you need anymore information or help, you can contact us using: <br> 
+ Email - saiunnathi_k@oakridge.in / unnathi.sk@gmail.com 
+
+</p> 
+
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
+
+
